@@ -1,34 +1,34 @@
-const CACHE_NAME = 'hola-cache-v1';
+const CACHE_NAME = 'appmovil-cache-v1';
 
 const FILES_TO_CACHE = [
-  '/hola/',
-  '/hola/index.html',
-  '/hola/styles.css',
-  '/hola/script.js',
+  '/AppMovil/',
+  '/AppMovil/index.html',
+  '/AppMovil/styles.css',
+  '/AppMovil/script.js',
 
   // Librerías locales
-  '/hola/assets/sqljs/sql-wasm.js',
-  '/hola/assets/fontawesome/css/all.min.css',
+  '/AppMovil/assets/sqljs/sql-wasm.js',
+  '/AppMovil/assets/fontawesome/css/all.min.css',
 
   // Imágenes
-  '/hola/assets/icons/hola.jpg',
-  '/hola/assets/icons/hol2.png',
-  '/hola/R.jpeg',
-  '/hola/noti.webp',
-  '/hola/OIP.webp',
-  '/hola/htrh.webp',
-  '/hola/hello.avif',
-  '/hola/app.webp',
-  '/hola/APPS.jpg',
-  '/hola/compo.webp',
-  '/hola/controles.jpg',
-  '/hola/datos.jpg',
-  '/hola/git.webp',
-  '/hola/mul.webp',
-  '/hola/pag.png',
-  '/hola/partes.jpeg',
-  '/hola/sistemas.jpg',
-  '/hola/R.png'
+  '/AppMovil/assets/icons/hola.jpg',
+  '/AppMovil/assets/icons/hol2.png',
+  '/AppMovil/R.jpeg',
+  '/AppMovil/noti.webp',
+  '/AppMovil/OIP.webp',
+  '/AppMovil/htrh.webp',
+  '/AppMovil/hello.avif',
+  '/AppMovil/app.webp',
+  '/AppMovil/APPS.jpg',
+  '/AppMovil/compo.webp',
+  '/AppMovil/controles.jpg',
+  '/AppMovil/datos.jpg',
+  '/AppMovil/git.webp',
+  '/AppMovil/mul.webp',
+  '/AppMovil/pag.png',
+  '/AppMovil/partes.jpeg',
+  '/AppMovil/sistemas.jpg',
+  '/AppMovil/R.png'
 ];
 
 self.addEventListener('install', event => {

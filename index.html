@@ -386,7 +386,6 @@
     </div>
 
    
-   
     <div id="menu" class="section">
         <div class="user-info">
             <div>Bienvenido, <span id="nombreUsuario">Usuario</span></div>
@@ -502,8 +501,6 @@
         </div>
     </div>
 </div>
-
-
   
     <div id="tema1" class="section">
         <div class="card">
@@ -557,8 +554,8 @@
             </div>
 
             <div class="nav-buttons">
-                <button onclick="mostrarSeccion('menu')" class="secundario">
-                    <i class="fas fa-arrow-left btn-icon"></i> Volver al Menú
+                <button onclick="mostrarSeccion('tema16')" class="secundario">
+                    <i class="fas fa-arrow-left btn-icon"></i> Anterior
                 </button>
                 <button onclick="mostrarSeccion('tema2')">
                     Siguiente <i class="fas fa-arrow-right btn-icon"></i>
@@ -944,9 +941,9 @@
                 <button onclick="mostrarSeccion('tema5')" class="secundario">
                     <i class="fas fa-arrow-left btn-icon"></i> Anterior
                 </button>
-               <button onclick="mostrarSeccion('tema7')">
-                    Siguiente <i class="fas fa-arrow-right btn-icon"></i>
-                </button>
+               <button onclick="mostrarSeccion('menu')">
+                Volver al Menú <i class="fas fa-home btn-icon"></i>
+            </button>
             </div>
         </div>
     </div>
@@ -1764,9 +1761,10 @@
             <button onclick="mostrarSeccion('tema15')" class="secundario">
                 <i class="fas fa-arrow-left btn-icon"></i> Anterior
             </button>
-            <button onclick="mostrarSeccion('menu')">
-                Volver al Menú <i class="fas fa-home btn-icon"></i>
+            <button onclick="mostrarSeccion('tema1')" class="secundario">
+                <i class="fas fa-arrow-left btn-icon"></i> Siguiente
             </button>
+            
         </div>
     </div>
 </div>
@@ -1789,22 +1787,22 @@ if ('serviceWorker' in navigator) {
         'login': 10,
         'registro': 10,
         'menu': 20,
-        'tema1': 25,
-        'tema2': 30,
-        'tema3': 35,
-        'tema4': 40,
-        'tema5': 45,
-        'tema6': 50,
-        'tema7': 55,
-        'tema8': 60,
-        'tema9': 65,
-        'tema10': 70,
-        'tema11': 75,
-        'tema12': 80,
-        'tema13': 85,
-        'tema14': 90,
-        'tema15': 95,
-        'tema16': 100,
+        'tema1': 75,
+        'tema2': 80,
+        'tema3': 85,
+        'tema4': 90,
+        'tema5': 95,
+        'tema6': 100,
+        'tema7': 25,
+        'tema8': 30,
+        'tema9': 35,
+        'tema10': 40,
+        'tema11': 45,
+        'tema12': 50,
+        'tema13': 55,
+        'tema14': 60,
+        'tema15': 65,
+        'tema16': 70,
     };
 
     // Ocultar todas las secciones y mostrar solo la especificada
@@ -2047,6 +2045,4 @@ if ("serviceWorker" in navigator) {
 
 </body>
 
-
 </html>
-
